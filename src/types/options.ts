@@ -63,7 +63,7 @@ export type ComponentOptions = {
   errorCaptured?: () => boolean | void
   serverPrefetch?: Function
   renderTracked?(e: DebuggerEvent): void
-  renderTriggerd?(e: DebuggerEvent): void
+  renderTriggered?(e: DebuggerEvent): void
 
   // assets
   directives?: { [key: string]: object }

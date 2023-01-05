@@ -212,7 +212,7 @@ export interface ComponentOptions<
   errorCaptured?(err: Error, vm: Vue, info: string): boolean | void
   serverPrefetch?(this: V): Promise<void>
   renderTracked?(e: DebuggerEvent): void
-  renderTriggerd?(e: DebuggerEvent): void
+  renderTriggered?(e: DebuggerEvent): void
 
   directives?: { [key: string]: DirectiveFunction | DirectiveOptions }
   components?: {
